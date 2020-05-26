@@ -1,4 +1,4 @@
-# AES-NI_Test g++ -maes
+# AES-NI_Test g++ -maes aes.cpp -o test
 implement AES_CBC MODE in Intel AES-NI library, which is a series customized instruction provied by Intel to accelerate computations of AES. These instructions implement a clear but fine-grained abstruction of AES round/key expansion, so for thoese who dont want to implement AES from scratch is a good solution
 
 # CBC oracle attack
